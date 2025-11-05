@@ -29,7 +29,7 @@ print(f'3出现了{a3}')
 print(f'4出现了{a4}')
 print(f'5出现了{a5}')
 print(f'6出现了{a6}')
-'''jso
+'''
 
 
 
