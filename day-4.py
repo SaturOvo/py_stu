@@ -66,7 +66,7 @@ while money>0:
         if 0< debt <= money :
             break
     firstpoint=random.randrange(1,7)+random.randrange(1,7)
-    print(f'玩家掷出了{firstpoint}点')
+    print(f'\n玩家掷出了{firstpoint}点')
     if firstpoint==7 or firstpoint==11:
         print('玩家胜！\n ')
         money+= debt*1.5
@@ -78,7 +78,7 @@ while money>0:
     else:
         while True:
             secondpoint=random.randrange(1,7)+random.randrange(1,7)
-            print(f'玩家掷出了{secondpoint}点')
+            print(f'\n玩家掷出了{secondpoint}点')
             if secondpoint==7 :
                 print('庄家胜！\n')
                 money-=debt*1.1
